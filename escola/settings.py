@@ -9,7 +9,8 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 
-TOKEN = '5dcb2f0ca2a035407fe77d38e84807c2ef2f9977'
+Token erick = 5dcb2f0ca2a035407fe77d38e84807c2ef2f9977
+Token teste = 6076a5c30b6690160c87bcbc36657d6afaee3894
 
 """
 import os.path
