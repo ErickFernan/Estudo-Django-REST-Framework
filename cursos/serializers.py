@@ -21,6 +21,11 @@ class AvaliacaoSerializer(serializers.ModelSerializer):
             'ativo'
         )
 
+    def validate_avaliacao(self, valor):  # A escrita tem que ser: validate_'campo_que_será_validado'
+        if valor in range(1, 6):  # 1 2 3 4 5
+            return valor
+        raise serializers.ValidationError('A avaliação precisa ser entre 1 e 5')
+
 
 class CursoSerializer(serializers.ModelSerializer):
 
